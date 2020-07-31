@@ -1,0 +1,203 @@
+/* Grid Gallery*/
+.gallery {
+    display: grid;
+    background-color: #000;
+    width: 100%;
+    height: 2000px !important;
+    grid-gap: 5px;
+    grid-template-columns: repeat(15, 1fr);
+    grid-template-rows: repeat(3 0, 1fr);
+    cursor: pointer;
+  }
+
+  .gallery div {
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+    
+  }
+  .one {
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    grid-column: span 7;
+    grid-row: span 4; 
+    background-image: url("../Images/Photography/barber.jpg") !important;
+  }
+  .two {
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    grid-column: span 4;
+    grid-row: span 4;
+    background-image: url("../Images/Photography/bryan.jpg") !important; 
+  }
+  .three {
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    grid-column: span 5 !important;
+    grid-row: span 4;
+    background-image: url("../Images/Photography/denim.jpg") !important;
+  }
+  .four {
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    grid-column: span 6 !important;
+    grid-row: span 4;
+    background-image: url("../Images/Photography/shoes.jpg");
+  }
+  .five {
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    grid-column: span 5 !important;
+    grid-row: span 4;
+    background-image: url("../Images/Photography/market.jpg") !important;
+  }
+  .six {
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    grid-column: 12 / span 4 !important;
+    grid-row: span 4;
+    background-image: url("../Images/Photography/media.jpg") !important;
+  }
+  .seven {
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    grid-column: 1 / span 5 !important;
+    grid-row: span 4;
+    background-image: url("../Images/Photography/homeless.jpg") !important;
+  }
+  .eight {
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    grid-column: 6 / span 6 !important;
+    grid-row: span 4;
+    background-image: url("../Images/Photography/walking.jpg") !important;
+  }
+  .ten {
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    grid-column: 12/ span 2 !important;
+    grid-row: span 4;
+    background-image: url("../Images/Photography/light.jpg") !important;
+  }
+  .eleven {
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    grid-column: 14/ span 2 !important;
+    grid-row: span 4;
+    background-image: url("../Images/Photography/dumbo.jpg") !important;
+  }
+  .twelve {
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    grid-column: 1 / span 6 !important;
+    grid-row: span 4;
+    background-image: url("../Images/Photography/tank.jpg") !important;
+  }
+  .thirteen {
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    grid-column: 7 / span 6 !important;
+    grid-row: span 4;
+    background-image: url("../Images/Photography/stickers.jpg") !important;
+  }
+  .fourteen {
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    grid-column: 13 / span 3 !important;
+    grid-row: span 4;
+    background-image: url("../Images/Photography/train.jpg") !important;
+  }
+  .fifteen {
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    grid-column: 1/ span 5 !important;
+    grid-row: span 4;
+    background-image: url("../Images/Photography/bird.jpg") !important;
+  }
+  .sixteen{
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    grid-column: 6 / span 5 !important;
+    grid-row: span 4;
+    background-image: url("../Images/Photography/pillars.jpg") !important;
+  }
+  .seventeen {
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    grid-column: 11 / span 2 !important;
+    grid-row: span 4;
+    background-image: url("../Images/Photography/bridge.jpg") !important;
+  }
+  .eighteen {
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    grid-column: 13 / span 3 !important;
+    grid-row: span 4;
+    background-image: url("../Images/Photography/looking.jpg") !important;
+  }
+  .nineteen {
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    grid-column: 1 / span 2 !important;
+    grid-row: span 4;
+    background-image: url("../Images/Photography/car.jpg") !important;
+  }
+  .twenty {
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    grid-column: 3 / span 2 !important;
+    grid-row: span 1 !important;
+    background-image: url("../Images/Photography/trade.jpg") !important;
+  }
+  .twenty1 {
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    grid-column: 5 / span 2 !important;
+    grid-row: span 1 !important;
+    background-image: url("../Images/Photography/neon.jpg") !important;
+  }
+  .twenty2 {
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    grid-column: 7 / span 2 !important;
+    grid-row: span 1 !important;
+    background-image: url("../Images/Photography/cheyenne2.jpg") !important;
+  }
+  .twenty3 {
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    grid-column: 9 / span 5 !important;
+    grid-row: span 1 !important;
+    background-image: url("../Images/Photography/birds.jpg") !important;
+  }
+  .twenty4 {
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    grid-column: 14 / span 2 !important;
+    grid-row: span 1 !important;
+    background-image: url("../Images/Photography/cheyene.jpg") !important;
+  }

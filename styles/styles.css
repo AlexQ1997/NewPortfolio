@@ -1,0 +1,283 @@
+body {
+  width: 100%;
+  height: 100vh;
+  background-color: #000;
+  background-image: url(../Images/Portraits/glitch-hero.jpg);
+  background-size: 100%;
+  background-position: left;
+  background-repeat: no-repeat;
+  overflow: hidden;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+body .name {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  text-align: center;
+  margin-right: auto;
+  margin-left: auto;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  position: absolute;
+  display: inline-block;
+}
+
+body .name h1 {
+  color: #fff;
+  font-family: "Abel", sans-serif;
+  font-size: 96px;
+  font-weight: 400;
+  text-transform: uppercase;
+  letter-spacing: 5px;
+  text-align: center;
+  margin: 0;
+}
+
+body .name .line {
+  position: absolute;
+  top: 110%;
+  left: 51%;
+  width: 10em;
+  margin: 0 auto;
+  border-right: 2px solid rgba(255, 255, 255, 0.75);
+  font-size: 180%;
+  text-align: center;
+  white-space: nowrap;
+  font-weight: 200;
+  overflow: hidden;
+  -webkit-transform: translate(-50%);
+          transform: translate(-50%);
+  color: #fff;
+  font-family: "Abel", sans-serif;
+  letter-spacing: 5px;
+}
+
+body .name .anim-typewriter {
+  -webkit-animation: typewriter 4s steps(40) 1s 1 normal both, blinkTextCursor 500ms steps(40) infinite normal;
+          animation: typewriter 4s steps(40) 1s 1 normal both, blinkTextCursor 500ms steps(40) infinite normal;
+}
+
+@-webkit-keyframes typewriter {
+  from {
+    width: 0;
+  }
+  to {
+    width: 18em;
+  }
+}
+
+@keyframes typewriter {
+  from {
+    width: 0;
+  }
+  to {
+    width: 18em;
+  }
+}
+
+@-webkit-keyframes blinkTextCursor {
+  from {
+    border-right-color: rgba(255, 255, 255, 0.75);
+  }
+  to {
+    border-right-color: transparent;
+  }
+}
+
+@keyframes blinkTextCursor {
+  from {
+    border-right-color: rgba(255, 255, 255, 0.75);
+  }
+  to {
+    border-right-color: transparent;
+  }
+}
+
+body .name h1::before, body .name h1::after {
+  content: attr(data-text);
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+}
+
+body .name h1::before {
+  color: #ff00c1;
+  -webkit-animation: glitch-effect 3s infinite;
+          animation: glitch-effect 3s infinite;
+}
+
+body .name h1::after {
+  color: #3498db;
+  -webkit-animation: glitch-effect 4s infinite;
+          animation: glitch-effect 4s infinite;
+}
+
+@-webkit-keyframes glitch-effect {
+  0% {
+    left: -2px;
+    top: -2px;
+  }
+  25% {
+    left: 2px;
+    top: 0px;
+  }
+  50% {
+    left: -1px;
+    top: 2px;
+  }
+  75% {
+    left: 1px;
+    top: -1px;
+  }
+  100% {
+    left: 0px;
+    top: -2px;
+  }
+}
+
+@keyframes glitch-effect {
+  0% {
+    left: -2px;
+    top: -2px;
+  }
+  25% {
+    left: 2px;
+    top: 0px;
+  }
+  50% {
+    left: -1px;
+    top: 2px;
+  }
+  75% {
+    left: 1px;
+    top: -1px;
+  }
+  100% {
+    left: 0px;
+    top: -2px;
+  }
+}
+
+body a {
+  position: relative;
+  top: 30%;
+  cursor: pointer;
+  color: #ffffff;
+  font-size: 24px;
+  text-decoration: none;
+  font-family: "Abel", sans-serif;
+  font-weight: 400;
+}
+
+body .cool-link::after {
+  content: '';
+  display: block;
+  width: 0;
+  height: 2px;
+  background: #fff;
+  -webkit-transition: width .3s;
+  transition: width .3s;
+}
+
+body .cool-link:hover::after {
+  width: 100%;
+  -webkit-transition: width .3s;
+  transition: width .3s;
+}
+
+@media all and (max-width: 1024px) {
+  body {
+    background-size: cover;
+  }
+}
+
+@media all and (max-width: 375px) {
+  body {
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+  }
+  h1 {
+    font-size: 36px !important;
+    letter-spacing: 10px !important;
+  }
+  .line {
+    font-size: 24px !important;
+    letter-spacing: 3px !important;
+  }
+  .cool-link {
+    font-size: 24px !important;
+  }
+}
+
+/*
+body:before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url(../Images/Street/steelwool2.jpg);
+    opacity: .5;
+}
+body:hover:before {
+    animation: animate .2s linear infinite;
+}
+@keyframes animate {
+    0% {
+        background-position: 0 0;
+        filter: hue-rotate(0deg);
+    }
+
+    10% {
+        background-position: 5px 0;
+    }
+    20% {
+        background-position: -5px 0;
+    }
+    30% {
+        background-position: 15px 0;
+    }
+    40% {
+        background-position: -15px 0;
+    }
+    50% {
+        background-position: -25px 0;
+    }
+    60% {
+        background-position: -50px 0;
+    }
+    70% {
+        background-position: 0 -20px;
+    }
+    80% {
+        background-position: -60px -20px;
+    }
+    81% {
+        background-position: 0 0;
+    }
+    100% {
+        background-position: 0 0;
+        filter: hue-rotate(360deg);
+    }
+    
+} */
+/*# sourceMappingURL=styles.css.map */

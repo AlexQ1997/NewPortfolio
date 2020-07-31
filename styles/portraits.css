@@ -1,0 +1,593 @@
+/* Grid Gallery*/
+.gallery {
+  display: -ms-grid;
+  display: grid;
+  background-color: #000;
+  width: 100%;
+  height: 2000px !important;
+  grid-gap: 5px;
+  -ms-grid-columns: (1fr)[15];
+      grid-template-columns: repeat(15, 1fr);
+  -ms-grid-rows: (0, 1fr)[3];
+      grid-template-rows: repeat(3 0, 1fr);
+  cursor: pointer;
+}
+
+.gallery div {
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.one {
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  grid-column: span 7;
+  grid-row: span 4;
+  background-image: url("../Images/Photography/barber.jpg") !important;
+}
+
+.two {
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  grid-column: span 4;
+  grid-row: span 4;
+  background-image: url("../Images/Photography/bryan.jpg") !important;
+}
+
+.three {
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  grid-column: span 5 !important;
+  grid-row: span 4;
+  background-image: url("../Images/Photography/denim.jpg") !important;
+}
+
+.four {
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  grid-column: span 6 !important;
+  grid-row: span 4;
+  background-image: url("../Images/Photography/shoes.jpg");
+}
+
+.five {
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  grid-column: span 5 !important;
+  grid-row: span 4;
+  background-image: url("../Images/Photography/market.jpg") !important;
+}
+
+.six {
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  -ms-grid-column: 12 !important;
+  -ms-grid-column-span: 4 !important;
+  grid-column: 12 / span 4 !important;
+  grid-row: span 4;
+  background-image: url("../Images/Photography/media.jpg") !important;
+}
+
+.seven {
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  -ms-grid-column: 1 !important;
+  -ms-grid-column-span: 5 !important;
+  grid-column: 1 / span 5 !important;
+  grid-row: span 4;
+  background-image: url("../Images/Photography/homeless.jpg") !important;
+}
+
+.eight {
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  -ms-grid-column: 6 !important;
+  -ms-grid-column-span: 6 !important;
+  grid-column: 6 / span 6 !important;
+  grid-row: span 4;
+  background-image: url("../Images/Photography/walking.jpg") !important;
+}
+
+.ten {
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  -ms-grid-column: 12 !important;
+  -ms-grid-column-span: 2 !important;
+  grid-column: 12/ span 2 !important;
+  grid-row: span 4;
+  background-image: url("../Images/Photography/light.jpg") !important;
+}
+
+.eleven {
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  -ms-grid-column: 14 !important;
+  -ms-grid-column-span: 2 !important;
+  grid-column: 14/ span 2 !important;
+  grid-row: span 4;
+  background-image: url("../Images/Photography/dumbo.jpg") !important;
+}
+
+.twelve {
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  -ms-grid-column: 1 !important;
+  -ms-grid-column-span: 6 !important;
+  grid-column: 1 / span 6 !important;
+  grid-row: span 4;
+  background-image: url("../Images/Photography/tank.jpg") !important;
+}
+
+.thirteen {
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  -ms-grid-column: 7 !important;
+  -ms-grid-column-span: 6 !important;
+  grid-column: 7 / span 6 !important;
+  grid-row: span 4;
+  background-image: url("../Images/Photography/stickers.jpg") !important;
+}
+
+.fourteen {
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  -ms-grid-column: 13 !important;
+  -ms-grid-column-span: 3 !important;
+  grid-column: 13 / span 3 !important;
+  grid-row: span 4;
+  background-image: url("../Images/Photography/train.jpg") !important;
+}
+
+.fifteen {
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  -ms-grid-column: 1 !important;
+  -ms-grid-column-span: 5 !important;
+  grid-column: 1/ span 5 !important;
+  grid-row: span 4;
+  background-image: url("../Images/Photography/bird.jpg") !important;
+}
+
+.sixteen {
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  -ms-grid-column: 6 !important;
+  -ms-grid-column-span: 5 !important;
+  grid-column: 6 / span 5 !important;
+  grid-row: span 4;
+  background-image: url("../Images/Photography/pillars.jpg") !important;
+}
+
+.seventeen {
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  -ms-grid-column: 11 !important;
+  -ms-grid-column-span: 2 !important;
+  grid-column: 11 / span 2 !important;
+  grid-row: span 4;
+  background-image: url("../Images/Photography/bridge.jpg") !important;
+}
+
+.eighteen {
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  -ms-grid-column: 13 !important;
+  -ms-grid-column-span: 3 !important;
+  grid-column: 13 / span 3 !important;
+  grid-row: span 4;
+  background-image: url("../Images/Photography/looking.jpg") !important;
+}
+
+.nineteen {
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  -ms-grid-column: 1 !important;
+  -ms-grid-column-span: 2 !important;
+  grid-column: 1 / span 2 !important;
+  grid-row: span 4;
+  background-image: url("../Images/Photography/car.jpg") !important;
+}
+
+.twenty {
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  -ms-grid-column: 3 !important;
+  -ms-grid-column-span: 2 !important;
+  grid-column: 3 / span 2 !important;
+  grid-row: span 1 !important;
+  background-image: url("../Images/Photography/trade.jpg") !important;
+}
+
+.twenty1 {
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  -ms-grid-column: 5 !important;
+  -ms-grid-column-span: 2 !important;
+  grid-column: 5 / span 2 !important;
+  grid-row: span 1 !important;
+  background-image: url("../Images/Photography/neon.jpg") !important;
+}
+
+.twenty2 {
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  -ms-grid-column: 7 !important;
+  -ms-grid-column-span: 2 !important;
+  grid-column: 7 / span 2 !important;
+  grid-row: span 1 !important;
+  background-image: url("../Images/Photography/cheyenne2.jpg") !important;
+}
+
+.twenty3 {
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  -ms-grid-column: 9 !important;
+  -ms-grid-column-span: 5 !important;
+  grid-column: 9 / span 5 !important;
+  grid-row: span 1 !important;
+  background-image: url("../Images/Photography/birds.jpg") !important;
+}
+
+.twenty4 {
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  -ms-grid-column: 14 !important;
+  -ms-grid-column-span: 2 !important;
+  grid-column: 14 / span 2 !important;
+  grid-row: span 1 !important;
+  background-image: url("../Images/Photography/cheyene.jpg") !important;
+}
+
+/* Navigation */
+header {
+  width: 100%;
+  padding-top: 40px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  background-image: url(../Images/Portraits/menu-img.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-position: right;
+  /* Links */
+}
+
+header a {
+  text-decoration: none;
+  color: #fff;
+  font-family: "Abel", sans-serif;
+  font-size: 20px;
+  margin-right: 100px;
+  font-weight: 400;
+  margin-bottom: 50px;
+}
+
+header .cool-link::after {
+  content: '';
+  display: block;
+  width: 0;
+  height: 2px;
+  background: #fff;
+  -webkit-transition: width .3s;
+  transition: width .3s;
+}
+
+header .cool-link:hover::after {
+  width: 100%;
+  -webkit-transition: width .3s;
+  transition: width .3s;
+}
+
+.one {
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  grid-column: span 6;
+  grid-row: span 1;
+  background-image: url("../Images/Photography/bus.jpg");
+}
+
+.two {
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  grid-column: span 4;
+  grid-row: span 1;
+  background-image: url("../Images/Photography/reflection.jpg");
+}
+
+.three {
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  grid-column: span 4;
+  grid-row: span 1;
+  background-image: url("../Images/Photography/window.jpg");
+}
+
+.four {
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  grid-column: span 7;
+  grid-row: span 1;
+  background-image: url("../Images/Photography/shoes.jpg");
+}
+
+.five {
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  grid-column: span 8;
+  grid-row: span 1;
+  background-image: url("../Images/Photography/Jacket.jpg");
+}
+
+.six {
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 7;
+  grid-column: 1 / span 7;
+  grid-row: span 1;
+  background-image: url("../Images/Photography/newspaper.jpg");
+}
+
+.seven {
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  -ms-grid-column: 8;
+  -ms-grid-column-span: 8;
+  grid-column: 8 / span 8;
+  grid-row: span 1;
+  background-image: url("../Images/Photography/Support.jpg");
+}
+
+.eight {
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 6;
+  grid-column: 1 / span 6;
+  grid-row: span 1;
+  background-image: url("../Images/Photography/standing.jpg");
+}
+
+.ten {
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  -ms-grid-column: 7;
+  -ms-grid-column-span: 4;
+  grid-column: 7 / span 4;
+  grid-row: span 1;
+  background-image: url("../Images/Photography/graffiti.jpg");
+}
+
+.eleven {
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  -ms-grid-column: 11;
+  -ms-grid-column-span: 4;
+  grid-column: 11 / span 4;
+  grid-row: span 1;
+  background-image: url("../Images/Photography/drawing.jpg");
+}
+
+.twelve {
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 7;
+  grid-column: 1 / span 7;
+  grid-row: span 1;
+  background-image: url("../Images/Photography/drummer.jpg");
+}
+
+.thirteen {
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  -ms-grid-column: 8;
+  -ms-grid-column-span: 8;
+  grid-column: 8 / span 8;
+  grid-row: span 1;
+  background-image: url("../Images/Photography/spraycan.jpg");
+}
+
+.fourteen {
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 6;
+  grid-column: 1 / span 6;
+  grid-row: span 1;
+  background-image: url("../Images/Photography/airplane.jpg");
+}
+
+.fifteen {
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  -ms-grid-column: 7;
+  -ms-grid-column-span: 4;
+  grid-column: 7/ span 4;
+  grid-row: span 1;
+  background-image: url("../Images/Photography/bench.jpg");
+}
+
+.sixteen {
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  -ms-grid-column: 11;
+  -ms-grid-column-span: 4;
+  grid-column: 11 / span 4;
+  grid-row: span 1;
+  background-image: url("../Images/Photography/garage.jpg");
+}
+
+.seventeen {
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 6;
+  grid-column: 1 / span 6;
+  grid-row: span 1;
+  background-image: url("../Images/Photography/skateboard.jpg");
+}
+
+.eighteen {
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  -ms-grid-column: 7;
+  -ms-grid-column-span: 4;
+  grid-column: 7 / span 4;
+  grid-row: span 1;
+  background-image: url("../Images/Photography/ladder.jpg");
+}
+
+.nineteen {
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  -ms-grid-column: 11;
+  -ms-grid-column-span: 4;
+  grid-column: 11 / span 4;
+  grid-row: span 1;
+  background-image: url("../Images/Photography/bridge1.jpg");
+}
+
+.gallery {
+  height: 1500px;
+  width: 100%;
+}
+
+body {
+  width: 100%;
+  height: 100vh;
+  background-color: #000;
+  margin: 0;
+  padding: 0;
+}
+
+/* Footer */
+footer {
+  height: 50px;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+footer a {
+  text-align: center;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  text-decoration: none;
+  color: #fff;
+  font-family: "Abel", sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  margin-top: 20px;
+}
+
+footer #lightbox {
+  position: fixed;
+  z-index: 3;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.8);
+  display: none;
+}
+
+footer #lightbox.active {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+@media all and (max-width: 1024px) {
+  a {
+    margin-right: 75px !important;
+  }
+  header a {
+    margin-bottom: 20px;
+  }
+}
+
+@media all and (max-width: 880px) {
+  header a {
+    margin-right: 30px !important;
+    font-size: 12px !important;
+  }
+  .gallery {
+    height: 700px !important;
+    grid-gap: 2px !important;
+  }
+  footer {
+    height: 20px !important;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  footer a {
+    margin-left: 80px !important;
+    text-align: center;
+    -ms-flex-line-pack: center;
+        align-content: center;
+    text-decoration: none;
+    color: #fff;
+    font-family: "Abel", sans-serif;
+    font-size: 14px !important;
+    font-weight: 400;
+    margin-top: 10px;
+  }
+}
+/*# sourceMappingURL=portraits.css.map */

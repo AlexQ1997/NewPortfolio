@@ -1,0 +1,36 @@
+/* Navigation */
+header {
+    width: 100%;
+    padding-top: 40px;
+    display: flex;
+    justify-content: center;
+    background-image: url(../Images/Portraits/menu-img.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-position: right;
+  
+    a {
+        text-decoration: none;
+        color: #fff;
+        font-family: $primary-font;
+        font-size: 20px;
+        margin-right: 100px;
+        font-weight: 400;
+        margin-bottom: 50px;
+  }
+  
+  /* Links */
+  .cool-link::after {
+    content: '';
+    display: block;
+    width: 0;
+    height: 2px;
+    background: #fff;
+    transition: width .3s;
+  }
+  .cool-link:hover::after {
+    width: 100%;
+    transition: width .3s;
+    }
+  }
