@@ -51,7 +51,7 @@ body .name .line {
   position: absolute;
   top: 110%;
   left: 51%;
-  width: 10em;
+  width: 7em;
   margin: 0 auto;
   border-right: 2px solid rgba(255, 255, 255, 0.75);
   font-size: 180%;
@@ -67,8 +67,8 @@ body .name .line {
 }
 
 body .name .anim-typewriter {
-  -webkit-animation: typewriter 4s steps(40) 1s 1 normal both, blinkTextCursor 500ms steps(40) infinite normal;
-          animation: typewriter 4s steps(40) 1s 1 normal both, blinkTextCursor 500ms steps(40) infinite normal;
+  -webkit-animation: typewriter 3s steps(40) 1s 1 normal both, blinkTextCursor 500ms steps(40) infinite normal;
+          animation: typewriter 3s steps(40) 1s 1 normal both, blinkTextCursor 500ms steps(40) infinite normal;
 }
 
 @-webkit-keyframes typewriter {
@@ -76,7 +76,7 @@ body .name .anim-typewriter {
     width: 0;
   }
   to {
-    width: 18em;
+    width: 7em;
   }
 }
 
@@ -85,7 +85,7 @@ body .name .anim-typewriter {
     width: 0;
   }
   to {
-    width: 18em;
+    width: 7em;
   }
 }
 

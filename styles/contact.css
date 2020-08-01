@@ -92,6 +92,7 @@ h2 {
   font-size: 17px;
   padding: 10px 31px;
   text-decoration: none;
+  margin-right: 500px;
 }
 
 .myButton:hover {
@@ -109,9 +110,8 @@ body {
   background-color: #000;
   background-image: url(../Images/Portraits/glitch-hero2.jpg);
   background-size: 100%;
-  background-position: right;
+  background-position: center;
   background-repeat: no-repeat;
-  overflow: hidden;
 }
 
 h1 {
@@ -136,7 +136,7 @@ p {
   text-align: left;
   padding-left: 100px;
   width: 250px;
-  margin-top: 80px;
+  margin-top: 50px;
 }
 
 @media all and (max-width: 1024px) {
